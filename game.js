@@ -96,7 +96,8 @@
         }, 200);
 
         //3. Change the h1 title to say "Game Over, Press Any Key to Restart" if the user got the answer wrong.
-        $("#level-title").text("Game Over, Press Any Key to Restart/n You ended in "+level);
+        $("#level-title").text("Game Over, You ended in LEVEL "+level);
+        $("#level-title").text("Press Any Key to Restart!");
         startOver();
 
 
